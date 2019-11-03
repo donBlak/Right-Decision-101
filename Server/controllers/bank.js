@@ -13,7 +13,7 @@ exports.postAddBank = (request, response, next) => {
         bankId: bankId,
         interestRates: interestRates,
         description: description,
-        time: 
+        time: time
     });
 
     bank.save()
