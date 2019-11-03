@@ -9,7 +9,7 @@ class HomePageRealEstate extends Component {
                     <div className={styles.main_background}>
                         <div className={styles.main_background_content}>
                             <h1 className={styles.main_background_title}>Reimagine home</h1>
-                            <h2 className={styles.main_background_subtitle}>We'll help you find a place you'll love </h2> 
+                            <h2 className={styles.main_background_subtitle}>We'll help you find a place you'll love to live</h2> 
                             <input type="text" name="location" placeholder="Enter location or district" className={styles.main_background_searchBox}/>
                         </div>
                     </div>
