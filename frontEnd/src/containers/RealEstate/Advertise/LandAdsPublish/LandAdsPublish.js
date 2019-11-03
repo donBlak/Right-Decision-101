@@ -82,7 +82,7 @@ class LandAdsPublish extends Component {
                         <span>:</span>
                     </div> 
                     <select className={styles.input} name="landType" onChange={this.handleInputChange}>
-                        <option>-type-</option>
+                        <option>-Select land type-</option>
                         <option value="Bare Land">Bare Land</option>
                         <option value="Beachfront Land">Beachfront Land</option>
                         <option value="Land with House">Land with House</option>
