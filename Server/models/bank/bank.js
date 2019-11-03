@@ -5,15 +5,15 @@ const Schema = mongoose.Schema;
 const bankSchema = new Schema({
     bankName:{
         type: String,
-        required: true
+        required: false
     },
     bankId: {
         type: String,
-        required: true
+        required: false
     },
     description: {
         type: String,
-        required: true
+        required: false
     },
     interestRates: [
         {
