@@ -67,7 +67,7 @@ app.use(publisherAds);
 app.use(bankRoutes);
 app.use('/advertiser', advertiserRoutes);
 
-app.ue((error, req, res, next) => {
+app.use((error, req, res, next) => {
     console.log(error);
     const status = error.statusCode || 500;
     const message = error.message;
