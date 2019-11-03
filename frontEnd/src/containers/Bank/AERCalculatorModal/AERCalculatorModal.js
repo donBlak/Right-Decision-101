@@ -11,7 +11,8 @@ class AERCalculatorModal extends Component {
         selectBankId: '',
         interestRates: [],
         selectInterestRateId: '',
-        AER: 0.00
+        AER: 0.00,
+        AERF:1
     }
 
     selectBankHandler = (e) => {
