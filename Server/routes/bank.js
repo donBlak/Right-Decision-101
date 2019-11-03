@@ -11,4 +11,4 @@ router.post('/delete-bank', bankController.postDeleteBank);
 router.post('/get-bank', bankController.postGetSpecificBank);
 router.post('/get-bank-ir', bankController.postGetSpecificBankInterestRates);
 
-module.exports = routers;
+module.exports = router;
