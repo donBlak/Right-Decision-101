@@ -9,7 +9,7 @@ class LoginModal extends Component {
         email: null,
         password: null,
         isVerified: true,
-        isPasswordInCorrect: true,
+        isPasswordInCorrect: false,
         isEmailExits: false
     }
 
