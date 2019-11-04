@@ -22,7 +22,7 @@ class GoogleMap extends Component {
                     
                 >
                 <Marker position={{ lat: this.props.mapCoordinates.latitude, lng: this.props.mapCoordinates.longitude}} />
-                </Map>a
+                </Map>
             </div>
         );
     }
