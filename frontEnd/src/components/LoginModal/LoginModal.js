@@ -6,7 +6,7 @@ import formStyles from '../SignupModal/Auth.css';
 
 class LoginModal extends Component {
     state = {
-        email: null,
+        email: undefined,
         password: null,
         isVerified: true,
         isPasswordInCorrect: false,
