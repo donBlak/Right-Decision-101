@@ -12,7 +12,7 @@ class GoogleMap extends Component {
     render() {
         return (
             <div className={styles.map_container}>
-                <Map
+                <Map 
                     google={this.props.google}
                     zoom={9}
                     style={mapStyles}
@@ -22,7 +22,7 @@ class GoogleMap extends Component {
                     
                 >
                 <Marker position={{ lat: this.props.mapCoordinates.latitude, lng: this.props.mapCoordinates.longitude}} />
-                </Map>
+                </Map>a
             </div>
         );
     }
