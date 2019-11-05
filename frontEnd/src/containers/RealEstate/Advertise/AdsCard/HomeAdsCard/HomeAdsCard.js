@@ -63,7 +63,7 @@ class HomeAdsCard extends Component {
                         <button
                             onClick={this.handleOpenAdsUpdateModal}
                         >
-                        Edit
+                        Edit ads
                         </button>
                         <button
                             onClick={this.handleModalOpen}
