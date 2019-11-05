@@ -182,7 +182,7 @@ class AdsSideNav extends Component {
                         className={styles.sideNav_button}
                         onClick={this.handleOpenNotification}
                     >
-                    <span>Notification</span>
+                    <span>Notification </span>
                     <div>{this.state.isOpenNotification ? <IoMdArrowDropleft size="1.7em" /> :<IoMdArrowDropright size="1.7em" />}</div>
                     </button>
                     <div className={this.state.isOpenNotification ? styles.dropSide_container : styles.dropSide_container_hide}>
