@@ -41,7 +41,7 @@ class AdsDeleteModal extends Component {
         let reactLoading = (
             <div>
                 <div>
-                    <h3>Processing....</h3>
+                    <h3>Processing...</h3>
                 </div>
                 <div className={lodingStyles.react_loading_container_absoulte}>
                     <ReactLoading type={'spinningBubbles'} color={'#006AFF'} height={'7%'} width={'7%'} />
