@@ -20,13 +20,7 @@ class ChandleStickChart extends React.Component {
         .then(response => {
             let data = response.data.result.sort(function(a, b){return parseDate(a.date) - parseDate(b.date)}).map(value => {
                 return {
-                    date: parseDate(value.date),
-                    open: value.open,
-                    high: value.high,
-                    low: value.low,
-                    close: value.close,
-                    volume: value.volume
-                }     
+                    
             })
             this.setState(prevState => {
                 return {
