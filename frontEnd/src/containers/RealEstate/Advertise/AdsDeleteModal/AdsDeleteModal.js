@@ -52,7 +52,7 @@ class AdsDeleteModal extends Component {
         if(isDeleteSuccess === null) {
             deleteContent = (
                 <div>
-                    <h2 className={modalStyles.delete_share_head}>Are you sure?</h2>
+                    <h2 className={modalStyles.delete_share_head}>Are you sure? </h2>
                     <div className={modalStyles.button_container}>
                         <button
                             onClick={this.handleDelete}
