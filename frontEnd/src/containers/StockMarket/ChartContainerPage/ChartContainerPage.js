@@ -102,7 +102,7 @@ class ChartContainerPage extends Component {
                             className={styles.chart_button}
                             onClick={this.handelOpenComparsionModal}
                             >
-                            Comparison
+                            Compare with other shares
                             </button>
                         </div>
 
